@@ -1,0 +1,97 @@
+.flex{
+    display: flex;
+}
+.flex-c{
+    flex-direction: column;
+}
+.center{
+    align-items: center;
+    justify-content: center;
+}
+.txt-c{
+    text-align: center;
+}
+.spaceBet{
+  justify-content: space-between;
+}
+.spaceAro{
+    justify-content: space-around;
+}
+.font-2{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+    color: #232323;
+}
+.font-3{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 49px;
+    color: #232323;
+    margin-bottom: 0px;
+}
+.font-1{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 58px;
+    color: #232323;
+}
+.fontPrice{
+    width: 77px;
+    height: 39px;
+    font-size: 24px;
+    line-height: 39px;
+    color: #9E3040;
+}
+.m-t-50{
+    margin-top: 70px;
+}
+.m-t-0{
+    margin-top: 0px;
+}
+
+@media (max-width:1144px){
+    .font-3{
+       font-size: 22px;
+       line-height: 32px;
+    }
+    .font-2{
+       font-size: 14px;
+    }
+    .fontPrice{
+        font-size: 20px;
+        line-height: 38px;
+    }
+}
+
+@media (max-width:900px) {
+    .font-3{
+        line-height: 30px;
+        font-size: 20px;
+    }
+    .font-1{
+        font-size: 32px;
+        line-height: 50px;
+    }
+}
+
+@media (max-width:700px) {
+    .font-3{
+        line-height: 20px;
+        font-size: 15px;
+    }
+    .font-2{
+        font-size: 12px;
+        line-height: 18px;  
+     }
+    .font-1 {
+        font-size: 22px;
+        line-height: 30px;
+    }
+    .m-t-50{
+        margin-top: 40px;
+    }
+}
